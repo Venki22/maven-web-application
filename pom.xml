@@ -28,21 +28,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
-	<repositories>
 	
-		<repository>
-		<id>nexus</id>
-		<name>Proxy repo</name>
-		<url>http://localhost:6001/repository/Flipkart-release/</url>
-		</repository>
-		
-		<repository>
-		<id>mavengroupid</id>
-		<name>Maven group</name>
-		<url>http://localhost:6001/repository/Flipkart-snapshots/</url>
-		</repository>
-	
-	</repositories>
 	<dependencies>
 		
 		<dependency>
