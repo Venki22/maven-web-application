@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>14.2.2-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
@@ -28,6 +28,18 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
+<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>Wallmart Release Repo</name>
+			<url>http://localhost:9001/repository/Wallmart-release/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus</id>
+			<name>Wallmart Snapshot</name>
+			<url>http://localhost:9001/repository/wallmart-snapshot/</url>
+		</snapshotRepository>
+</distributionManagement>
 
 	<dependencies>
 		
