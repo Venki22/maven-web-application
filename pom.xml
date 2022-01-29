@@ -29,18 +29,18 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 	</properties>
-<!--<distributionManagement>
+<distributionManagement>
 		<repository>
 			<id>nexus</id>
-			<name>Wallmart Release Repo</name>
-			<url>http://localhost:6001/repository/Wallmart-release/</url>
+			<name>Flipkart Release Repo</name>
+			<url>http://3.109.32.26:8081/repository/Flikart-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus</id>
-			<name>Wallmart Snapshot</name>
-			<url>http://localhost:6001/repository/wallmart-snapshot/</url>
+			<name>Flikart Snapshot</name>
+			<url>http://3.109.32.26:8081/repository/Flipkart-snpshot/</url>
 		</snapshotRepository>
-</distributionManagement>-->
+</distributionManagement>
 
 	<dependencies>
 		
